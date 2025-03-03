@@ -2,9 +2,9 @@
 
 #
 
-**1 Data**
+**1. Data**
 
-_Xcont.csv_: GWAS data of Oryza Sativa
+- _Xcont.csv_: GWAS data of Oryza Sativa
 
 _cont\_LMM\_grain.weight\_p0.05\_sort.tsv_: grain weight data after filtering by biological characteristics,
 
