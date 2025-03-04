@@ -10,7 +10,7 @@ The following datasets are used in this analysis:
 - `Ycont.txt`: Output data including phenotypes for time to flowering and grain weight.
 - `indep_1000_10_0.3.prune-43k.in`: Input data for the advanced regressor after filtering based on biological characteristics.
 
-These files have been compressed into **`Prepared_data.rar`**.
+These files can be downloaded at https://drive.google.com/drive/folders/1ezaS4i50LA9GqB15uIO4_50wwNq-CKrn?usp=sharing
 
 ---
 
