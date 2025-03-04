@@ -10,7 +10,7 @@ The following datasets are used in this analysis:
 - `Ycont.txt`: Output data including phenotypes for time to flowering and grain weight.
 - `indep_1000_10_0.3.prune-43k.in`: Input data for the advanced regressor after filtering based on biological characteristics.
 
-These files can be downloaded at https://drive.google.com/drive/folders/1ezaS4i50LA9GqB15uIO4_50wwNq-CKrn?usp=sharing
+These files can be downloaded at Prepared_data: [Prepared_data](https://drive.google.com/drive/folders/1IZvDN6Wy_S8X2wP3CgPFmw4lkHA8cJaF?usp=sharing)
 
 ---
 
@@ -22,7 +22,7 @@ These files can be downloaded at https://drive.google.com/drive/folders/1ezaS4i5
 - **Input:** Data from `Prepared_data.rar`.
 - **Process:** The script filters the data based on p-values and prepares it for model training.
 - **Output:** Filtered data saved in **`Export_data.rar`**.
-
+These files can be downloaded at Prepared_data: [Filtered_data](https://drive.google.com/drive/folders/1IZvDN6Wy_S8X2wP3CgPFmw4lkHA8cJaF?usp=sharing)
 ---
 
 ## 3. Training Model
@@ -30,7 +30,7 @@ These files can be downloaded at https://drive.google.com/drive/folders/1ezaS4i5
 **Python script:** `BI_Rice_SNPs.py`
 
 - **Requirements:** Python `3.7.1`, `pandas` package, `scikit-learn` package.
-- **Input:** Data from `Export_data.rar`.
+- **Input:** Data from `Filtered_data.rar`.
 - **Process:** The script trains models using multiple regression techniques.
 
 ### 3.1 Grid Search with Cross-Validation
