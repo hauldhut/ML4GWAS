@@ -19,10 +19,10 @@ These files can be downloaded at Prepared_data: [Prepared_data](https://drive.go
 **Python script:** `BI_Rice_SNPs_Pvl_Filtering.py`
 
 - **Requirements:** Python `3.7.1`, `pandas` package.
-- **Input:** Data from `Prepared_data.rar`.
+- **Input:** Data from `Prepared_data`.
 - **Process:** The script filters the data based on p-values and prepares it for model training.
-- **Output:** Filtered data saved in **`Export_data.rar`**.
-These files can be downloaded at Prepared_data: [Filtered_data](https://drive.google.com/drive/folders/1IZvDN6Wy_S8X2wP3CgPFmw4lkHA8cJaF?usp=sharing)
+- **Output:** Filtered data saved in **`Filtered_data`**.
+These files can be downloaded at Filtered_data: [Filtered_data](https://drive.google.com/drive/folders/1IZvDN6Wy_S8X2wP3CgPFmw4lkHA8cJaF?usp=sharing)
 ---
 
 ## 3. Training Model
@@ -30,7 +30,7 @@ These files can be downloaded at Prepared_data: [Filtered_data](https://drive.go
 **Python script:** `BI_Rice_SNPs.py`
 
 - **Requirements:** Python `3.7.1`, `pandas` package, `scikit-learn` package.
-- **Input:** Data from `Filtered_data.rar`.
+- **Input:** Data from `Filtered_data`.
 - **Process:** The script trains models using multiple regression techniques.
 
 ### 3.1 Grid Search with Cross-Validation
@@ -55,7 +55,7 @@ Utilizes [`GridSearchCV`](https://scikit-learn.org/stable/modules/generated/skle
 ### 3.7 Multi-Task Elastic Net Regression with Cross-Validation
 [`MultiTaskElasticNetCV`](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.MultiTaskElasticNetCV.html) from `sklearn.linear_model`.
 
-**Results:** The trained model outputs have been compressed into **`Results.rar`**.
+**Results:** The trained model outputs can be downloaded at Results: [Results](https://drive.google.com/drive/folders/1IZvDN6Wy_S8X2wP3CgPFmw4lkHA8cJaF?usp=sharing)
 
 ---
 
